@@ -1,0 +1,24 @@
+# Arduino / build
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local captures / logs
+*.csv
+*.log
+captures/
+
+# Local Wi-Fi secrets
+secrets.h
